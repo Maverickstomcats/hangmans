@@ -15,7 +15,7 @@ print(f"current lives: {lives}")
 split_word = [*word]
 print(split_word)
 
-#this section will be for the player to guess the letters in the word
+#this section will be for the player to guaess the letters in the word
 guess = input("guess the letter: ")
 #while lives != 0:
 for x in range(6):
