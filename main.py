@@ -51,8 +51,8 @@ while lives > 0:
       print(f"good, this is the guess: {guess}")
     # index = ""
     # for guess in split_word:
-      underscore_list.pop(index_pos_list[0])
-      underscore_list.insert(index_pos_list[0], guess)
+      underscore_list.pop(index_pos_list)
+      underscore_list.insert(split_word,guess)
       print(underscore_list)
 
 
